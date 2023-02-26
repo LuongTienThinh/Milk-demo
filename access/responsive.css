@@ -1,0 +1,200 @@
+@media screen and (max-width:1399px) {
+    .body-page--one {
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+    }
+    .body-page--two {
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+    .chervon-left {
+        display: none;
+    }
+    .body-scale {
+        display: block;
+    }
+    .body-second--text-title {
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+    .body-six--paragrap {
+        margin: -50px 250px 0;
+    }
+}
+@media screen and (max-width:1199px) {
+    .header-page {
+        border: none;
+    }
+    .header-img {
+        padding: 15px 0;
+    }
+    .header-second, .header-text {
+        display: none;
+    }
+    .header-scale, .header-menu {
+        display: block;
+    }
+    .body-page--one {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .body-page--two {
+        font-size: 4.8rem;
+        line-height: 4.8rem;
+    }
+    .body-four--element {
+        width: 48%;
+    }
+    .body-five--element {
+        width: 31%;
+    }
+    .body-five--hover > a {
+        display: none;
+    }
+    .body-five--name {
+        margin-top: 20px;
+    }
+    .body-five--mobile {
+        display: block;
+    }
+    .add-to--cart-mobile > i {
+        display: none;
+    }
+    .body-six--paragrap {
+        margin: -50px 150px 0;
+    }
+}
+@media screen and (max-width:991px) {
+    .body-second--img, 
+    .body-thrid--img{
+        width: 80%;
+    }
+    .body-thrid--list,
+    .body-second--text {
+        width: 100%;
+    }
+    .body-five--element {
+        width: 48%;
+    }
+    .add-icon-mobile {
+        font-size: 1.4rem;
+    }
+    .body-six--paragrap {
+        margin: -50px 50px 0;
+    }
+    .body-seven--love {
+        width: 48%;
+    }
+    .body-eight--list > img {
+        order: 1;
+        width: 50%;
+    }
+    .body-eight--title {
+        width: 50%;
+    }
+    .footer-title > * {
+        width: 100%;
+    }
+    .footer-newsletter {
+        border-right: none;
+        border-top: rgba(0, 0, 0, .2) solid 1px;
+    }
+    .footer-contact {
+        padding: 50px 0 50px 0;
+    }
+    .menu-mobile--modal {
+        width: 40%;
+    }
+}
+@media screen and (max-width:767px) {
+    .pc-img {
+        display: none;
+    }
+    .mobile-img {
+        display: unset;
+    }
+}
+@media screen and (max-width:639px) {
+    .body-seven--love {
+        width: 100%;
+    }
+    .menu-mobile--modal {
+        width: 50%;
+    }
+}
+@media screen and (max-width:539px) {
+    .body-four--element {
+        width: 100%;
+    }
+    .modal-milk--element {
+        width: 80%;
+    }
+}
+@media screen and (max-width:479px) {
+    .header-pack--list > li:not(:first-child){
+        display: none;
+    }
+    .header-page {
+        border-bottom: rgba(0, 0, 0, .2) solid 1px; 
+    }
+    .header-pack--mobile {
+        display: unset;
+    }
+    .body-page--one {
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+    .body-page--two {
+        font-size: 3.6rem;
+        line-height: 3.6rem;
+    }
+    .body-thrid--elements {
+        width: 100%;
+    }
+    .add-to--cart-mobile > i {
+        display: unset;
+    }
+    .add-to--cart-mobile > span {
+        display: none;
+    }
+    .body-four--categorious {
+        font-size: 2.6rem;
+        text-align: center;
+        margin-bottom: 80px;
+        font-weight: 500;
+    }
+    .body-eight--list {
+        flex-direction: column;
+    }
+    .body-eight--list > img {
+        order: 0;
+        width: 100%;
+        margin: 30px 0;
+    }
+    .footer-contact--title {
+        width: 100%;
+    }
+    .footer-contact--title:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    .footer-end--title {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-end--title > span {
+        padding-bottom: 15px;
+    }
+    .footer-subcribe {
+        position: relative;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width:359px) {
+    .body-five--element {
+        width: 100%;
+    }
+    .menu-mobile--modal {
+        width: 70%;
+    }
+}

@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./access/css/all.min.css">
+    <link rel="stylesheet" href="./access/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./access/base.css">
+    <link rel="stylesheet" href="./access/main.css">
+    <link rel="stylesheet" href="./access/responsive.css">
+    <title>Milk-demo</title>
+</head>
+
+<body>
+    <div class="header-scale">Three-day sale! get the fall rolling</div>
+    <!-- header page ------------------------------------------------------ -->
+    <div class="header-page">
+        <div class="container">
+            <div class="header">
+                <div class="header-img">
+                    <a href="">
+                        <img src="./access/img/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="header-text">
+                    Its time to save more
+                </div>
+                <div class="header-pack">
+                    <ul class="header-pack--list">
+                        <li class="header-pack--list-element header-menu" id="header-menu">
+                            <i class="fa-solid fa-bars"></i>
+                        </li>
+                        <li class="header-pack--list-element">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                        <li class="header-pack--list-element">
+                            <i class="fa-regular fa-user"></i>
+                        </li>
+                        <li class="header-pack--list-element">
+                            <i class="fa-regular fa-heart"></i>
+                            <span class="header-pack--list-element__number">0</span>
+                        </li>
+                        <li class="header-pack--list-element">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span class="header-pack--list-element__number">0</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header mobile ----------------------------------------------- -->
+    <div class="header-pack--mobile">
+        <div class="container">
+            <ul class="header-mobile--list">
+                <li class="header-mobile--list-element">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+                <li class="header-mobile--list-element">
+                    <i class="fa-regular fa-user"></i>
+                </li>
+                <li class="header-mobile--list-element">
+                    <i class="fa-regular fa-heart"></i>
+                    <span class="header-mobile--list-element__number">0</span>
+                </li>
+                <li class="header-mobile--list-element">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="header-mobile--list-element__number">0</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- menu-mobile ------------------------------------------------------ -->
+    <div class="menu-mobile" id="menu-mobile">
+        <div class="modal-milk--overlay">
+        </div>
+        <div class="menu-mobile--modal">
+            <div class="menu-mobile--element close" id="close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="menu-mobile--element">
+                <a href="">ONLINE SHOP</a>
+            </div>
+            <div class="menu-mobile--element menu-mobile--menu" id="menu">
+                <div>
+                    <i class="fa-solid fa-bars"></i>
+                    <span>MENU</span>
+                </div>
+                <i class="fa-solid fa-chevron-down" id="icon-menu"></i>
+            </div>
+            <ul class="menu-none" id="list-menu">
+                <li class="menu-mobile--element">
+                    <div class="menu-mobile--menu padding-1" id="home">
+                        <span>Home</span>
+                        <i class="fa-solid fa-chevron-down" id="icon-home"></i>
+                    </div>
+                    <ul class="menu-none" id="list-home">
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu padding-2" id="home-demo1">
+                                <span>Home demo 1</span>
+                                <i class="fa-solid fa-chevron-down" id="icon-home-demo1"></i>
+                            </div>
+                            <ul class="menu-none" id="list-home-demo1">
+                                <li class="menu-mobile--home-element">01 Mitho organic</li>
+                                <li class="menu-mobile--home-element">02 Mitho beauty</li>
+                                <li class="menu-mobile--home-element">03 Mitho coffee</li>
+                                <li class="menu-mobile--home-element">04 Mitho flower</li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu padding-2" id="home-demo2">
+                                <span>Home demo 2</span>
+                                <i class="fa-solid fa-chevron-down" id="icon-home-demo2"></i>
+                            </div>
+                            <ul class="menu-none" id="list-home-demo2">
+                                <li class="menu-mobile--home-element">05 Mitho medical</li>
+                                <li class="menu-mobile--home-element">06 Mitho electronic</li>
+                                <li class="menu-mobile--home-element">07 Mitho furniture</li>
+                                <li class="menu-mobile--home-element">08 Mitho milk</li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu padding-2" id="home-demo3">
+                                <span>Home demo 3</span>
+                                <i class="fa-solid fa-chevron-down" id="icon-home-demo3"></i>
+                            </div>
+                            <ul class="menu-none" id="list-home-demo3">
+                                <li class="menu-mobile--home-element">09 Mitho gym</li>
+                                <li class="menu-mobile--home-element">10 Mitho fashion</li>
+                                <li class="menu-mobile--home-element">11 Mitho jewellery</li>
+                                <li class="menu-mobile--home-element">12 Mitho sports</li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu padding-2" id="home-demo4">
+                                <span>Home demo 4</span>
+                                <i class="fa-solid fa-chevron-down" id="icon-home-demo4"></i>
+                            </div>
+                            <ul class="menu-none" id="list-home-demo4">
+                                <li class="menu-mobile--home-element">13 Mitho bicycle</li>
+                                <li class="menu-mobile--home-element">14 Mitho tools</li>
+                                <li class="menu-mobile--home-element">15 Mitho food</li>
+                                <li class="menu-mobile--home-element">16 Mitho surfboard</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-mobile--element">
+                    <div class="menu-mobile--menu padding-1" id="shop">
+                        <span>Shop</span>
+                        <i class="fa-solid fa-chevron-down" id="icon-shop"></i>
+                    </div>
+                    <ul class="menu-none" id="list-shop">
+                        <li class="menu-mobile--home">
+                            <ul>
+                                <li class="shop-type">BEST SELLER</li>
+                                <li class="shop-type">BUFFALO MILK</li>
+                                <li class="shop-type">COW MILK</li>
+                                <li class="shop-type">GOAT MILK</li>
+                                <li class="shop-type">FEATURED PRODUCT</li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu padding-2" id="shop-page">
+                                <span>Shop page</span>
+                                <i class="fa-solid fa-chevron-down" id="icon-shop-page"></i>
+                            </div>
+                            <ul class="menu-none" id="list-shop-page">
+                                <li class="menu-mobile--home-element">01 Collection </li>
+                                <li class="menu-mobile--home-element">02 Collection left</li>
+                                <li class="menu-mobile--home-element">03 Collection right</li>
+                                <li class="menu-mobile--home-element">04 Collection list</li>
+                                <li class="menu-mobile--home-element">05 Collection list left</li>
+                                <li class="menu-mobile--home-element">06 Collection list right</li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile--home">
+                            <a class="menu-mobile--img" href="">
+                                <img src="./access/img/shopbanner-1.webp" alt="">
+                            </a>
+                        </li>
+                        <li class="menu-mobile--home">
+                            <a class="menu-mobile--img" href="">
+                                <img src="./access/img/shopbanner-2.webp" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-mobile--element">
+                    <div class="menu-mobile--menu padding-1" id="product">
+                        <span>Product</span>
+                        <i class="fa-solid fa-chevron-down" id="icon-product"></i>
+                    </div>
+                    <ul class="menu-none" id="list-product">
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu padding-2" id="product-page">
+                                <span>Product page</span>
+                                <i class="fa-solid fa-chevron-down" id="icon-product-page"></i>
+                            </div>
+                            <ul class="menu-none" id="list-product-page">
+                                <li class="menu-mobile--home-element">01 Product style</li>
+                                <li class="menu-mobile--home-element">02 Product style</li>
+                                <li class="menu-mobile--home-element">03 Product style</li>
+                                <li class="menu-mobile--home-element">04 Product style</li>
+                                <li class="menu-mobile--home-element">05 Product style</li>
+                                <li class="menu-mobile--home-element">06 Product style</li>
+                                <li class="menu-mobile--home-element">07 Product style</li>
+                                <li class="menu-mobile--home-element">08 Product style</li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu padding-2" id="product-shop-page">
+                                <span>Shop page</span>
+                                <i class="fa-solid fa-chevron-down" id="icon-product-shop-page"></i>
+                            </div>
+                            <ul class="menu-none" id="list-product-shop-page">
+                                <li class="menu-mobile--home-element">01 Collection </li>
+                                <li class="menu-mobile--home-element">02 Collection left</li>
+                                <li class="menu-mobile--home-element">03 Collection right</li>
+                                <li class="menu-mobile--home-element">04 Collection list</li>
+                                <li class="menu-mobile--home-element">05 Collection list left</li>
+                                <li class="menu-mobile--home-element">06 Collection list right</li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile--home">
+                            <div>
+                                <div class="product-buy product-purchase">
+                                    <a href="">
+                                        <img src="./access/img/1_110X120_crop_center.avif" alt="">
+                                    </a>
+                                    <div class="product-buy--name">
+                                        <span class="product-buy--fault">Toned milk</span>
+                                        <div class="product-value">
+                                            <span class="new-price">$23.00</span>
+                                            <span class="old-price">$25.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-buy product-purchase">
+                                    <a href="">
+                                        <img src="./access/img/1_403e7224-7d7d-48a5-bbba-ae47585e44fe_110X120_crop_center.avif"
+                                            alt="">
+                                    </a>
+                                    <div class="product-buy--name">
+                                        <span class="product-buy--fault">Medium fat</span>
+                                        <div class="product-value">
+                                            <span class="new-price">$12.00</span>
+                                            <span class="old-price">$15.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-buy--see-more">
+                                <a href="">
+                                    SEE MORE
+                                    <i class="fa-solid fa-angles-right"></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="menu-mobile--home">
+                            <div>
+                                <div class="product-buy product-purchase">
+                                    <a href="">
+                                        <img src="./access/img/1_383f2e15-fd10-4c30-b616-bd6a6e11ad03_110X120_crop_center.webp"
+                                            alt="">
+                                    </a>
+                                    <div class="product-buy--name">
+                                        <span class="product-buy--fault">Small pack</span>
+                                        <div class="product-value">
+                                            <span class="new-price">$23.00</span>
+                                            <span class="old-price">$25.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-buy product-purchase">
+                                    <a href="">
+                                        <img src="./access/img/1_3832fcaa-972f-4488-8ace-cea01bca960d_110X120_crop_center.webp"
+                                            alt="">
+                                    </a>
+                                    <div class="product-buy--name">
+                                        <span class="product-buy--fault">Low fat</span>
+                                        <div class="product-value">
+                                            <span class="new-price">$12.00</span>
+                                            <span class="old-price">$15.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-buy--see-more">
+                                <a href="">
+                                    SEE MORE
+                                    <i class="fa-solid fa-angles-right"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-mobile--element">
+                    <div class="menu-mobile--menu padding-1" id="collection">
+                        <span>Collection</span>
+                        <i class="fa-solid fa-chevron-down" id="icon-collection"></i>
+                    </div>
+                    <ul class="menu-none" id="list-collection">
+                        <li class="menu-mobile--home collection-hover">
+                            <a href="">
+                                <img src="./access/img/menubanner-1.webp" alt="">
+                            </a>
+                            <p>New product</p>
+                        </li>
+                        <li class="menu-mobile--home collection-hover">
+                            <a href="">
+                                <img src="./access/img/menubanner-2.webp" alt="">
+                            </a>
+                            <p>Fearture product</p>
+                        </li>
+                        <li class="menu-mobile--home collection-hover">
+                            <a href="">
+                                <img src="./access/img/menubanner-3.webp" alt="">
+                            </a>
+                            <p>Best seller</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-mobile--element">
+                    <div class="menu-mobile--menu padding-1" id="blog">
+                        <span>Blog</span>
+                        <i class="fa-solid fa-chevron-down" id="icon-blog"></i>
+                    </div>
+                    <ul class="menu-none" id="list-blog">
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu padding-2" id="blog-page">
+                                <span>Blog page</span>
+                                <i class="fa-solid fa-chevron-down" id="icon-blog-page"></i>
+                            </div>
+                            <ul class="menu-none" id="list-blog-page">
+                                <li class="menu-mobile--home-element">01 Blog grid </li>
+                                <li class="menu-mobile--home-element">02 Blog grid left</li>
+                                <li class="menu-mobile--home-element">03 Blog grid right</li>
+                                <li class="menu-mobile--home-element">04 Article post</li>
+                                <li class="menu-mobile--home-element">05 Article post left</li>
+                                <li class="menu-mobile--home-element">06 Article post right</li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile--home">
+                            <ul>
+                                <li class="shop-type">Where does it come...</li>
+                                <li class="shop-type">Why do we use...</li>
+                                <li class="shop-type">What is Lorem Ipsum</li>
+                                <li class="shop-type">Nisi ut aliquid ex</li>
+                                <li class="shop-type">Wel illum qui dolorem</li>
+                                <li class="shop-type">Which of us ever</li>
+                                <li class="shop-type">
+                                    <div>
+                                        <a href="">
+                                            SEE MORE
+                                            <i class="fa-solid fa-angles-right"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>                    
+                        <li class="menu-mobile--home">
+                            <div>
+                                <div class="product-buy product-purchase">
+                                    <a href="">
+                                        <img src="./access/img/1_383f2e15-fd10-4c30-b616-bd6a6e11ad03_110X120_crop_center.webp"
+                                            alt="">
+                                    </a>
+                                    <div class="product-buy--name">
+                                        <span class="product-buy--fault">Small pack</span>
+                                        <div class="product-value">
+                                            <span class="new-price">$23.00</span>
+                                            <span class="old-price">$25.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-buy product-purchase">
+                                    <a href="">
+                                        <img src="./access/img/1_3832fcaa-972f-4488-8ace-cea01bca960d_110X120_crop_center.webp"
+                                            alt="">
+                                    </a>
+                                    <div class="product-buy--name">
+                                        <span class="product-buy--fault">Low fat</span>
+                                        <div class="product-value">
+                                            <span class="new-price">$12.00</span>
+                                            <span class="old-price">$15.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-buy--see-more">
+                                <a href="">
+                                    SEE MORE
+                                    <i class="fa-solid fa-angles-right"></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="menu-mobile--home">
+                            <a class="menu-mobile--img" href="">
+                                <img src="./access/img/blogbanner.webp" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-mobile--element">
+                    <div class="menu-mobile--menu padding-1" id="pages">
+                        <span>Pages</span>
+                        <i class="fa-solid fa-chevron-down" id="icon-pages"></i>
+                    </div>
+                    <ul class="menu-none" id="list-pages">
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu padding-2" id="about-us">
+                                <span>About us</span>
+                                <i class="fa-solid fa-chevron-down" id="icon-about-us"></i>
+                            </div>
+                            <ul class="menu-none" id="list-about-us">
+                                <li class="menu-mobile--home-element">About us</li>
+                                <li class="menu-mobile--home-element">About us 2</li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu padding-2" id="contact-us">
+                                <span>Contact us</span>
+                                <i class="fa-solid fa-chevron-down" id="icon-contact-us"></i>
+                            </div>
+                            <ul class="menu-none" id="list-contact-us">
+                                <li class="menu-mobile--home-element">Contact us</li>
+                                <li class="menu-mobile--home-element">Contact us 2</li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu">
+                                <span>Faq's</span>                                
+                            </div>                            
+                        </li>
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu">
+                                <span>Privacy policy</span>                                
+                            </div>                            
+                        </li>
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu">
+                                <span>Terms & condition</span>                                
+                            </div>                            
+                        </li>
+                        <li class="menu-mobile--home">
+                            <div class="menu-mobile--menu">
+                                <span>404</span>                                
+                            </div>                            
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- header page second ------------------------------------------------------ -->
+    <div class="header-second">
+        <div class="container">
+            <div class="header-two">
+                <div class="header-two--list">
+                    <ul>
+                        <!-- home--------------- -->
+                        <li class="header-two--list-element">
+                            <span>
+                                HOME
+                                <i class="chevron-style fa-solid fa-chevron-down"></i>
+                            </span>
+                            <div class="background-detail">
+                                <div class="container">
+                                    <ul class="home-demo">
+                                        <li class="home-demo--detail">
+                                            <span>Home demo 1</span>
+                                            <ul>
+                                                <li class="home-demo--element">01 Mitho organic</li>
+                                                <li class="home-demo--element">02 Mitho beauty</li>
+                                                <li class="home-demo--element">03 Mitho coffee</li>
+                                                <li class="home-demo--element">04 Mitho flower</li>
+                                            </ul>
+                                        </li>
+                                        <li class="home-demo--detail">
+                                            <span>Home demo 2</span>
+                                            <ul>
+                                                <li class="home-demo--element">05 Mitho medical</li>
+                                                <li class="home-demo--element">06 Mitho electronic</li>
+                                                <li class="home-demo--element">07 Mitho furniture</li>
+                                                <li class="home-demo--element">08 Mitho milk</li>
+                                            </ul>
+                                        </li>
+                                        <li class="home-demo--detail">
+                                            <span>Home demo 3</span>
+                                            <ul>
+                                                <li class="home-demo--element">09 Mitho gym</li>
+                                                <li class="home-demo--element">10 Mitho fashion</li>
+                                                <li class="home-demo--element">11 Mitho jewellery</li>
+                                                <li class="home-demo--element">12 Mitho sports</li>
+                                            </ul>
+                                        </li>
+                                        <li class="home-demo--detail">
+                                            <span>Home demo 4</span>
+                                            <ul>
+                                                <li class="home-demo--element">13 Mitho bicycle</li>
+                                                <li class="home-demo--element">14 Mitho tools</li>
+                                                <li class="home-demo--element">15 Mitho food</li>
+                                                <li class="home-demo--element">16 Mitho surfboard</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- shop------------------ -->
+                        <li class="header-two--list-element">
+                            <span>
+                                SHOP
+                                <i class="chevron-style fa-solid fa-chevron-down"></i>
+                            </span>
+                            <div class="background-detail">
+                                <div class="container">
+                                    <ul class="home-demo">
+                                        <li class="home-demo--detail">
+                                            <span>BEST SELLER</span>
+                                            <span>BUFFALO MILK</span>
+                                            <span>COW MILK</span>
+                                            <span>GOAT MILK</span>
+                                            <span>FEATURED PRODUCT</span>
+                                        </li>
+                                        <li class="home-demo--detail">
+                                            <span>Shop page</span>
+                                            <ul>
+                                                <li class="home-demo--element">01 Collection </li>
+                                                <li class="home-demo--element">02 Collection left</li>
+                                                <li class="home-demo--element">03 Collection right</li>
+                                                <li class="home-demo--element">04 Collection list</li>
+                                                <li class="home-demo--element">05 Collection list left</li>
+                                                <li class="home-demo--element">06 Collection list right</li>
+                                            </ul>
+                                        </li>
+                                        <li class="home-demo--detail">
+                                            <a class="home-demo--img" href="">
+                                                <img src="./access/img/shopbanner-1.webp" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="home-demo--detail">
+                                            <a class="home-demo--img" href="">
+                                                <img src="./access/img/shopbanner-2.webp" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- product--------------------- -->
+                        <li class="header-two--list-element">
+                            <span>
+                                PRODUCT
+                                <i class="chevron-style fa-solid fa-chevron-down"></i>
+                            </span>
+                            <div class="background-detail">
+                                <div class="container">
+                                    <ul class="home-demo">
+                                        <li class="home-demo--detail">
+                                            <span>Product page</span>
+                                            <ul>
+                                                <li class="home-demo--element">01 Product style</li>
+                                                <li class="home-demo--element">02 Product style</li>
+                                                <li class="home-demo--element">03 Product style</li>
+                                                <li class="home-demo--element">04 Product style</li>
+                                                <li class="home-demo--element">05 Product style</li>
+                                                <li class="home-demo--element">06 Product style</li>
+                                                <li class="home-demo--element">07 Product style</li>
+                                                <li class="home-demo--element">08 Product style</li>
+                                            </ul>
+                                        </li>
+                                        <li class="home-demo--detail">
+                                            <span>Shop page</span>
+                                            <ul>
+                                                <li class="home-demo--element">01 Collection </li>
+                                                <li class="home-demo--element">02 Collection left</li>
+                                                <li class="home-demo--element">03 Collection right</li>
+                                                <li class="home-demo--element">04 Collection list</li>
+                                                <li class="home-demo--element">05 Collection list left</li>
+                                                <li class="home-demo--element">06 Collection list right</li>
+                                            </ul>
+                                        </li>
+                                        <li class="home-demo--detail product-title">
+                                            <div>
+                                                <div class="product-buy">
+                                                    <a href="">
+                                                        <img src="./access/img/1_110X120_crop_center.avif" alt="">
+                                                    </a>
+                                                    <div class="product-buy--name">
+                                                        <span class="product-buy--fault">Toned milk</span>
+                                                        <div class="product-value">
+                                                            <span class="new-price">$23.00</span>
+                                                            <span class="old-price">$25.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-buy">
+                                                    <a href="">
+                                                        <img src="./access/img/1_403e7224-7d7d-48a5-bbba-ae47585e44fe_110X120_crop_center.avif"
+                                                            alt="">
+                                                    </a>
+                                                    <div class="product-buy--name">
+                                                        <span class="product-buy--fault">Medium fat</span>
+                                                        <div class="product-value">
+                                                            <span class="new-price">$12.00</span>
+                                                            <span class="old-price">$15.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-buy--see-more">
+                                                <a href="">
+                                                    SEE MORE
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="home-demo--detail product-title">
+                                            <div>
+                                                <div class="product-buy">
+                                                    <a href="">
+                                                        <img src="./access/img/1_383f2e15-fd10-4c30-b616-bd6a6e11ad03_110X120_crop_center.webp"
+                                                            alt="">
+                                                    </a>
+                                                    <div class="product-buy--name">
+                                                        <span class="product-buy--fault">Small pack</span>
+                                                        <div class="product-value">
+                                                            <span class="new-price">$23.00</span>
+                                                            <span class="old-price">$25.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-buy">
+                                                    <a href="">
+                                                        <img src="./access/img/1_3832fcaa-972f-4488-8ace-cea01bca960d_110X120_crop_center.webp"
+                                                            alt="">
+                                                    </a>
+                                                    <div class="product-buy--name">
+                                                        <span class="product-buy--fault">Low fat</span>
+                                                        <div class="product-value">
+                                                            <span class="new-price">$12.00</span>
+                                                            <span class="old-price">$15.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-buy--see-more">
+                                                <a href="">
+                                                    SEE MORE
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- collection----------------- -->
+                        <li class="header-two--list-element">
+                            <span>
+                                COLLECTION
+                                <i class="chevron-style fa-solid fa-chevron-down"></i>
+                            </span>
+                            <div class="background-detail">
+                                <div class="container">
+                                    <ul class="collection">
+                                        <li class="collection--detail">
+                                            <a href="">
+                                                <img src="./access/img/menubanner-1.webp" alt="">
+                                            </a>
+                                            <p>New product</p>
+                                        </li>
+                                        <li class="collection--detail">
+                                            <a href="">
+                                                <img src="./access/img/menubanner-2.webp" alt="">
+                                            </a>
+                                            <p>Fearture product</p>
+                                        </li>
+                                        <li class="collection--detail">
+                                            <a href="">
+                                                <img src="./access/img/menubanner-3.webp" alt="">
+                                            </a>
+                                            <p>Best seller</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- blog------------------------- -->
+                        <li class="header-two--list-element">
+                            <span>
+                                BLOG
+                                <i class="chevron-style fa-solid fa-chevron-down"></i>
+                            </span>
+                            <div class="background-detail">
+                                <div class="container">
+                                    <ul class="home-demo">
+                                        <li class="home-demo--detail">
+                                            <span>Blog page</span>
+                                            <ul>
+                                                <li class="home-demo--element">01 Blog grid </li>
+                                                <li class="home-demo--element">02 Blog grid left</li>
+                                                <li class="home-demo--element">03 Blog grid right</li>
+                                                <li class="home-demo--element">04 Article post</li>
+                                                <li class="home-demo--element">05 Article post left</li>
+                                                <li class="home-demo--element">06 Article post right</li>
+                                            </ul>
+                                        </li>
+                                        <li class="home-demo--detail">
+                                            <div class="fix-fault">
+                                                <ul>
+                                                    <li class="fix-fault--fault">Where does it come...</li>
+                                                    <li class="fix-fault--fault">Why do we use...</li>
+                                                    <li class="fix-fault--fault">What is Lorem Ipsum</li>
+                                                    <li class="fix-fault--fault">Nisi ut aliquid ex</li>
+                                                    <li class="fix-fault--fault">Wel illum qui dolorem</li>
+                                                    <li class="fix-fault--fault">Which of us ever</li>
+                                                </ul>
+                                                <div class="product-buy--see-more">
+                                                    <a href="">
+                                                        SEE MORE
+                                                        <i class="fa-solid fa-angles-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="home-demo--detail product-title">
+                                            <div>
+                                                <div class="product-buy">
+                                                    <a href="">
+                                                        <img src="./access/img/1_110X120_crop_center.avif" alt="">
+                                                    </a>
+                                                    <div class="product-buy--name">
+                                                        <span class="product-buy--fault">Toned milk</span>
+                                                        <div class="product-value">
+                                                            <span class="new-price">$23.00</span>
+                                                            <span class="old-price">$25.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-buy">
+                                                    <a href="">
+                                                        <img src="./access/img/1_403e7224-7d7d-48a5-bbba-ae47585e44fe_110X120_crop_center.avif"
+                                                            alt="">
+                                                    </a>
+                                                    <div class="product-buy--name">
+                                                        <span class="product-buy--fault">Medium fat</span>
+                                                        <div class="product-value">
+                                                            <span class="new-price">$12.00</span>
+                                                            <span class="old-price">$15.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-buy--see-more">
+                                                <a href="">
+                                                    SEE MORE
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="home-demo--detail">
+                                            <a class="home-demo--img" href="">
+                                                <img src="./access/img/blogbanner.webp" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- page ------------------------- -->
+                        <li class="header-two--list-element">
+                            <span>
+                                PAGES
+                                <i class="chevron-style fa-solid fa-chevron-down"></i>
+                            </span>
+                            <div class="detail-pages">
+                                <ul>
+                                    <li class="detail-pages--element">
+                                        <div>
+                                            About us
+                                            <i class="fa-solid fa-angle-right"></i>
+                                            <ul class="detail-pages--element-child">
+                                                <li class="detail-pages--element">About us</li>
+                                                <li class="detail-pages--element">About us 2</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="detail-pages--element">
+                                        <div>
+                                            Contact us
+                                            <i class="fa-solid fa-angle-right"></i>
+                                            <ul class="detail-pages--element-child">
+                                                <li class="detail-pages--element">Contact us</li>
+                                                <li class="detail-pages--element">Contact us 2</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="detail-pages--element">Faq's</li>
+                                    <li class="detail-pages--element">Privacy policy</li>
+                                    <li class="detail-pages--element">Terms & condition</li>
+                                    <li class="detail-pages--element">404</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-two--buy">
+                    <a href="">ONLINE SHOP</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- body samsung ------------------------------------------------------ -->
+    <div class="body">
+        <div class="body-img">
+            <img class="pc-img" src="./access/img/slider-3.webp" alt="">
+            <img class="mobile-img" src="./access/img/mobileslider-3.webp" alt="">
+        </div>
+        <div class="body-title">
+            <div class="chervon-left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="container">
+                <div class="body-page">
+                    <div class="body-page--one">
+                        Natural products
+                    </div>
+                    <div class="body-page--two">
+                        <span>THE RIGHT</span>
+                        <span>NUTRITIONS</span>
+                    </div>
+                    <div class="header-two--buy">
+                        <a href="">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-scale">
+            <span class="body-scale--btn"></span>
+            <span class="body-scale--btn"></span>
+            <span class="body-scale--btn"></span>
+        </div>
+    </div>
+
+    <!-- body samsung second --------------------------------------------- -->
+    <div class="body-second">
+        <div class="container">
+            <div class="body-second--list">
+                <a class="body-second--img" href="">
+                    <img src="./access/img/custom-txt-img.webp" alt="milk">
+                </a>
+                <div class="body-second--text">
+                    <p class="body-second--text-title">The natural flavor is always incredible</p>
+                    <p class="body-second--text-text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry's standard dummy text ever since the texts
+                    </p>
+                    <div class="header-two--buy">
+                        <a href="">LEARN NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- body samsung thrid --------------------------------------------- -->
+    <div class="body-thrid">
+        <div class="container">
+            <div class="body-thrid--title">
+                <div class="body-thrid--list">
+                    <ul>
+                        <li class="body-thrid--elements">
+                            <div class="body-thrid--icon">
+                                <a href="">
+                                    <i class="fa-solid fa-truck"></i>
+                                </a>
+                                <span class="body-thrid--name">FREE SHIPPING</span>
+                                <span class="body-thrid--text">Delivery within 24 hours</span>
+                            </div>
+                        </li>
+                        <li class="body-thrid--elements">
+                            <div class="body-thrid--icon">
+                                <a href="">
+                                    <i class="fa-solid fa-glass-water"></i>
+                                </a>
+                                <span class="body-thrid--name">FRESH MILK</span>
+                                <span class="body-thrid--text">Healthy low fat</span>
+                            </div>
+                        </li>
+                        <li class="body-thrid--elements">
+                            <div class="body-thrid--icon">
+                                <a href="">
+                                    <i class="fa-solid fa-wallet"></i>
+                                </a>
+                                <span class="body-thrid--name">MONEY BACK</span>
+                                <span class="body-thrid--text">Refung within 30 days</span>
+                            </div>
+                        </li>
+                        <li class="body-thrid--elements">
+                            <div class="body-thrid--icon">
+                                <a href="">
+                                    <i class="fa-solid fa-shield-heart"></i>
+                                </a>
+                                <span class="body-thrid--name">SAFE PAYMENT</span>
+                                <span class="body-thrid--text">100% secure with us</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <a class="body-thrid--img" href="">
+                    <img src="./access/img/service-img.webp" alt="milk">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- body samsung four --------------------------------------------- -->
+    <div class="body-four">
+        <div class="body-four--categorious">
+            Categorious
+        </div>
+        <div class="container">
+            <ul class="body-four--list">
+                <li class="body-four--element">
+                    <div><img src="./access/img/cat-buffalo.webp" alt=""></div>
+                    <div class="body-four--name">
+                        BUFFALO MILK
+                    </div>
+                    <a class="shop-now" href="">SHOP NOW</a>
+                </li>
+                <li class="body-four--element">
+                    <div><img src="./access/img/cat-cow.webp" alt=""></div>
+                    <div class="body-four--name">
+                        COW MILK
+                    </div>
+                    <a class="shop-now" href="">SHOP NOW</a>
+                </li>
+                <li class="body-four--element">
+                    <div><img src="./access/img/cat-goat.webp" alt=""></div>
+                    <div class="body-four--name">
+                        GOAT MILK
+                    </div>
+                    <a class="shop-now" href="">SHOP NOW</a>
+                </li>
+                <li class="body-four--element">
+                    <img src="./access/img/cat-ken.webp" alt="">
+                    <div class="body-four--name">
+                        KEN MILK
+                    </div>
+                    <a class="shop-now" href="">SHOP NOW</a>
+                </li>
+                <li class="body-four--element">
+                    <img src="./access/img/cat-bottle.webp" alt="">
+                    <div class="body-four--name">
+                        BOTTLE MILK
+                    </div>
+                    <a class="shop-now" href="">SHOP NOW</a>
+                </li>
+                <li class="body-four--element">
+                    <img src="./access/img/cat-packet.webp" alt="">
+                    <div class="body-four--name">
+                        CAT MILK
+                    </div>
+                    <a class="shop-now" href="">SHOP NOW</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- body samsung five --------------------------------------------- -->
+    <div class="body-five">
+        <div class="body-four--categorious">
+            Fresh milk
+        </div>
+        <div class="container">
+            <ul class="body-five--list">
+                <li class="body-five--element">
+                    <div class="body-five--hover">
+                        <img src="./access/img/2_00b86d4b-9911-44a6-af42-72d1633d3843_590X750_crop_center.webp" alt="">
+                        <a class="add-to--cart" href="">ADD TO CART</a>
+                        <a class="add-icon" href="">
+                            <i class="add-icon--padding fa-regular fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="body-five--name">Cow milk</div>
+                    <div>
+                        <span class="new-price">$25.00</span>
+                        <span class="old-price">$28.00</span>
+                    </div>
+                    <div class="body-five--mobile">
+                        <a class="add-icon-mobile" href="">
+                            <i class="add-icon--padding fa-regular fa-eye"></i>
+
+                            <span class="add-to--cart-mobile" href="">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>ADD TO CART</span>
+                            </span>
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                </li>
+                <li class="body-five--element">
+                    <div class="body-five--hover">
+                        <img src="./access/img/1_590X750_crop_center.webp" alt="">
+                        <a class="add-to--cart" href="">ADD TO CART</a>
+                        <a class="add-icon" href="">
+                            <i class="add-icon--padding fa-regular fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="body-five--name">Toned milk</div>
+                    <div>
+                        <span class="new-price">$23.00</span>
+                        <span class="old-price">$25.00</span>
+                    </div>
+                    <div class="body-five--mobile">
+                        <a class="add-icon-mobile" href="">
+                            <i class="add-icon--padding fa-regular fa-eye"></i>
+
+                            <span class="add-to--cart-mobile" href="">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>ADD TO CART</span>
+                            </span>
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                </li>
+                <li class="body-five--element">
+                    <div class="body-five--hover">
+                        <img src="./access/img/1_f5aff237-529a-4140-be9b-7a0cb44adbd2_590X750_crop_center.webp" alt="">
+                        <a class="add-to--cart" href="">ADD TO CART</a>
+                        <a class="add-icon" href="">
+                            <i class="add-icon--padding fa-regular fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="body-five--name">Full fat</div>
+                    <div>
+                        <span class="new-price">$42.00</span>
+                        <span class="old-price">$45.00</span>
+                    </div>
+                    <div class="body-five--mobile">
+                        <a class="add-icon-mobile" href="">
+                            <i class="add-icon--padding fa-regular fa-eye"></i>
+
+                            <span class="add-to--cart-mobile" href="">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>ADD TO CART</span>
+                            </span>
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                </li>
+                <li class="body-five--element">
+                    <div class="body-five--hover">
+                        <img src="./access/img/2_54f91d86-1eca-4575-bd26-6ee2379396bb_590X750_crop_center.webp" alt="">
+                        <a class="add-to--cart" href="">ADD TO CART</a>
+                        <a class="add-icon" href="">
+                            <i class="add-icon--padding fa-regular fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="body-five--name">Medium fat</div>
+                    <div>
+                        <span class="new-price">$12.00</span>
+                        <span class="old-price">$15.00</span>
+                    </div>
+                    <div class="body-five--mobile">
+                        <a class="add-icon-mobile" href="">
+                            <i class="add-icon--padding fa-regular fa-eye"></i>
+
+                            <span class="add-to--cart-mobile" href="">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>ADD TO CART</span>
+                            </span>
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="header-two--buy see-more">
+            <a href="">SEE MORE</a>
+        </div>
+    </div>
+
+    <!-- body samsung six --------------------------------------------- -->
+    <div class="body-six">
+        <div class="body-four--categorious">
+            We produce fresh milk
+        </div>
+        <div class="container">
+            <p class="body-six--paragrap">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+        <div class="body-six--img">
+            <img src="./access/img/abt-milk-img.webp" alt="">
+        </div>
+    </div>
+
+    <!-- body samsung seven --------------------------------------------- -->
+    <div class="body-seven">
+        <div class="body-four--categorious">
+            Customer love
+        </div>
+        <div class="container">
+            <div class="body-seven--title">
+                <ul>
+                    <li class="body-seven--love">
+                        <div class="body-seven--list">
+                            <div class="body-seven--info">
+                                <img src="./access/img/t-2.webp" alt="">
+                                <div>
+                                    <p class="love-name">Noah Ainsley</p>
+                                    <p class="love-position">CEO</p>
+                                </div>
+                            </div>
+                            <div class="body-seven--text">
+                                Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took
+                            </div>
+                        </div>
+                    </li>
+                    <li class="body-seven--love">
+                        <div class="body-seven--list">
+                            <div class="body-seven--info">
+                                <img src="./access/img/t-4.webp" alt="">
+                                <div>
+                                    <p class="love-name">Penny Albritton</p>
+                                    <p class="love-position">Customer</p>
+                                </div>
+                            </div>
+                            <div class="body-seven--text">
+                                Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took
+                            </div>
+                        </div>
+                    </li>
+                    <li class="body-seven--love">
+                        <div class="body-seven--list">
+                            <div class="body-seven--info">
+                                <img src="./access/img/t-6.webp" alt="">
+                                <div>
+                                    <p class="love-name">Sarah Jones</p>
+                                    <p class="love-position">Doctor</p>
+                                </div>
+                            </div>
+                            <div class="body-seven--text">
+                                Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="body-seven--cham">
+            <span class="body-seven--3cham"></span>
+            <span class="body-seven--3cham"></span>
+            <span class="body-seven--3cham"></span>
+        </div>
+    </div>
+
+    <!-- body samsung eight ---------------------------------------- -->
+    <div class="body-eight">
+        <div class="container">
+            <div class="body-eight--list">
+                <div class="body-eight--title">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p class="body-eight--number">590+</p>
+                    <span class="body-eight--text">Happy customer</span>
+                </div>
+                <img src="./access/img/counter-img.webp" alt="">
+                <div class="body-eight--title">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <p class="body-eight--number">210+</p>
+                    <span class="body-eight--text">Subscription</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer --------------------------------------------------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-title">
+                <div class="footer-newsletter">
+                    <h2>NEWLETTER</h2>
+                    <p>Subscribe for the latest news & get 20% off your first order</p>
+                    <div class="footer-input">
+                        <input type="email" placeholder="Enter your email...">
+                        <button class="footer-subcribe">SUBCRIBE</button>
+                    </div>
+                    <ul class="footer-social">
+                        <li class="footer-social--element"><i class="fa-brands fa-facebook"></i></li>
+                        <li class="footer-social--element"><i class="fa-brands fa-youtube"></i></li>
+                        <li class="footer-social--element"><i class="fa-brands fa-square-instagram"></i></li>
+                        <li class="footer-social--element"><i class="fa-brands fa-square-twitter"></i></li>
+                        <li class="footer-social--element"><i class="fa-brands fa-pinterest"></i></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <div class="footer-contact--title">
+                        <h2>QUICK LINKS</h2>
+                        <ul>
+                            <li class="footer-contact--element">About us</li>
+                            <li class="footer-contact--element">Contact us</li>
+                            <li class="footer-contact--element">Faq's</li>
+                            <li class="footer-contact--element">My cart</li>
+                            <li class="footer-contact--element">My wishlist</li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact--title">
+                        <h2>CONTACT US</h2>
+                        <ul>
+                            <li class="footer-contact--element">7882 Rd Reliance GIDC</li>
+                            <li class="footer-contact--element">Park Chock, New York</li>
+                            <li class="footer-contact--element">(+33) 1 23 45 67 89</li>
+                            <li class="footer-contact--element">demo@demo.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer end--------------------------------------------------- -->
+    <div class="footer-end">
+        <div class="container">
+            <div class="footer-end--title">
+                <div class="header-img">
+                    <a href="">
+                        <img src="./access/img/logo.svg" alt="">
+                    </a>
+                </div>
+                <span>Powered by spacingtechTM</span>
+            </div>
+        </div>
+        <a href="#">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>
+
+    <!-- modal base-------------------------------------------------------------------------------- -->
+    <div class="modal-milk" id="modal-milk">
+        <div class="modal-milk--overlay">
+        </div>
+        <div class="modal-milk--element">
+            <h1 class="modal-milk--title">NEWSLETTER</h1>
+            <p class="modal-milk--text">For get special offers and other information</p>
+            <div class="modal-milk--input">
+                <input type="email" placeholder="Enter your email...">
+            </div>
+            <button class="modal-milk--subscribe">SUBSCRIBE</button>
+            <div class="modal-close" id="modal-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./access/script.js"></script>
+</body>
+
+</html>
